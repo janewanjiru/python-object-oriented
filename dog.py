@@ -1,11 +1,12 @@
 class Dog:
-    dogType="chihuahua"
-    def __init__(self,dogColor,dogSize,dogBreed,):
+    def __init__(self,dogColor,dogName,dogBreed,):
         self.dogColor=dogColor
-        self.dogSize=dogSize
+        self.dogSize=dogName
         self.dogBreed=dogBreed
+    def running(self):
+        return f"My dog is {self.dogName},she is {self.dogBreed}"
     def bark(self):
-        return f"Hello your dogColor is {self.dogColor},your dogSize is {self.dogSize},your dogBreed is {self.dogBreed}"
+        return f"My dog is {self.dogColor} ,she is {self.dogBreed}"    
        
         
 

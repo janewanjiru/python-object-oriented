@@ -1,10 +1,15 @@
 class Bank:
-    accountType="Business account"
-    def __init__(self,accountBalance,accountNumber,accountName):
-        self.accountBalance=accountBalance
+    def __init__(self,accountName,accountNumber,owner):
+        self.accountBalance=accountName
         self.accountNumber=accountNumber
-        self.accountName=accountName
+        self.owner=owner
     def withdraw(self):   
-        return f"Hello your balance is {self.accountBalance}, your accountNumber is{self.accountNumber},your accountName is {self.accountName}"
+        return f"Hello {self.owner} your  withdraw limit is below the limit"
+    def deposit(self):
+        return f"The{self.onwer} deposit money from{self.accountName}"
+    def  balance(self):
+        return f"Hello please enter {self.accountName} to check your balance"
+
+
        
 
