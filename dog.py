@@ -1,7 +1,7 @@
 class Dog:
     def __init__(self,dogColor,dogName,dogBreed,):
         self.dogColor=dogColor
-        self.dogSize=dogName
+        self.dogName=dogName
         self.dogBreed=dogBreed
     def running(self):
         return f"My dog is {self.dogName},she is {self.dogBreed}"

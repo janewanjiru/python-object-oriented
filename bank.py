@@ -4,7 +4,7 @@ class Bank:
         self.accountNumber=accountNumber
         self.owner=owner
     def withdraw(self):   
-        return f"Hello {self.owner} your  withdraw limit is below the limit"
+        return f"Hello {self.owner} your  withdraw amount is below the limit"
     def deposit(self):
         return f"The{self.onwer} deposit money from{self.accountName}"
     def  balance(self):
